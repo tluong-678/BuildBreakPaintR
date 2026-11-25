@@ -55,7 +55,7 @@ npm run start
 - The simple profanity filter is client-side only and is not a security or moderation system.
 - This is a runnable starter project, not a production-hardened public game. Add server-side rate limits, moderation, validation, and abuse protection before opening it to everyone.
 *This is a supabase to login or sign in project and this is a file to make a web, you can copy but make it different!*
-***official web: "https://buildbreakpaint.netlify.app"***
+***official web: "https://buildbreakpaint-r.up.railway.app"***
   As since, official web can't sign in with google and sign up with google!
 
 
