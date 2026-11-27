@@ -20,7 +20,9 @@ export default function GameClient() {
   const [saves, setSaves] = useState<Array<{id:string;name:string;type:string;created_at:string}>>([]);
   const [message, setMessage] = useState("");
   const [fov, setFov] = useState(55);
-  const lastSaved = useRef("");\n  const autoSaveId = useRef<string | null>(null);\n  const [localBackup, setLocalBackup] = useState(false);
+  const lastSaved = useRef("");
+  const autoSaveId = useRef<string | null>(null);
+  const [localBackup, setLocalBackup] = useState(false);
   const world = useMemo<WorldData>(() => ({ version: 1, blocks }), [blocks]);
 
   const save = useCallback(async (type: "manual" | "auto" | "exit" = "manual") => {
